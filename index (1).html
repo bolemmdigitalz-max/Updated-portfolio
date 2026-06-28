@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Osiberu Boluwatife | Website Designer & Digital Marketing Specialist</title>
+  <meta name="description" content="Osiberu Boluwatife — Website Designer for Nigerian Businesses. Modern websites, Google Maps optimization, social media advertising and graphic design." />
+  <meta name="keywords" content="Website Designer Nigeria, Digital Marketing, Graphic Designer, Google Maps Listing, Lagos Nigeria, boludevs" />
+  <meta name="author" content="Osiberu Boluwatife" />
+  <meta property="og:title" content="Osiberu Boluwatife | Website Designer & Digital Marketing Specialist" />
+  <meta property="og:description" content="Professional portfolio of Osiberu Boluwatife — helping Nigerian businesses grow online." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://boludevs.name.ng" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Schema.org Person markup for Google rich results -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Osiberu Boluwatife",
+    "url": "https://boludevs.name.ng",
+    "jobTitle": "Website Designer & Digital Marketing Specialist",
+    "worksFor": { "@type": "Organization", "name": "boludevs" },
+    "address": { "@type": "PostalAddress", "addressCountry": "NG", "addressLocality": "Lagos" },
+    "sameAs": ["https://www.linkedin.com/in/osiberu-boluwatife"]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVBAR
+       ============================================================ -->
+  <header id="navbar">
+    <nav class="nav-inner">
+
+      <!-- Logo -->
+      <button class="nav-logo" data-section="home" onclick="goTo('home')" aria-label="Go to home">
+        <span class="nav-logo-badge">OB</span>
+        <span class="nav-logo-text">
+          <strong>Osiberu</strong>
+          <span>Boluwatife</span>
+        </span>
+      </button>
+
+      <!-- Desktop links -->
+      <ul class="nav-links">
+        <li><button class="nav-link active" data-section="home"       onclick="goTo('home')">Home</button></li>
+        <li><button class="nav-link"         data-section="about"      onclick="goTo('about')">About Me</button></li>
+        <li><button class="nav-link"         data-section="experience" onclick="goTo('experience')">Experience</button></li>
+        <li><button class="nav-link"         data-section="tools"      onclick="goTo('tools')">Tools</button></li>
+        <li><button class="nav-link"         data-section="skills"     onclick="goTo('skills')">Services</button></li>
+        <li><button class="nav-link"         data-section="projects"   onclick="goTo('projects')">Projects</button></li>
+        <li><button class="nav-link"         data-section="contact"    onclick="goTo('contact')">Contact</button></li>
+      </ul>
+
+      <button class="nav-cta" onclick="goTo('contact')">Hire Me</button>
+
+      <!-- Hamburger -->
+      <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+      </button>
+    </nav>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <ul>
+        <li><button class="mobile-link active" data-section="home"       onclick="goTo('home')">Home</button></li>
+        <li><button class="mobile-link"         data-section="about"      onclick="goTo('about')">About Me</button></li>
+        <li><button class="mobile-link"         data-section="experience" onclick="goTo('experience')">Experience</button></li>
+        <li><button class="mobile-link"         data-section="tools"      onclick="goTo('tools')">Tools</button></li>
+        <li><button class="mobile-link"         data-section="skills"     onclick="goTo('skills')">Services</button></li>
+        <li><button class="mobile-link"         data-section="projects"   onclick="goTo('projects')">Projects</button></li>
+        <li><button class="mobile-link"         data-section="contact"    onclick="goTo('contact')">Contact</button></li>
+        <li><button class="mobile-cta"                                    onclick="goTo('contact')">Hire Me</button></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============================================================
+         HERO
+         ============================================================ -->
+    <section id="home">
+      <div class="hero-blob hero-blob-1"></div>
+      <div class="hero-blob hero-blob-2"></div>
+
+      <div class="container hero-grid">
+
+        <!-- Content -->
+        <div class="hero-content reveal">
+          <span class="hero-badge">
+            <span class="dot"></span>
+            Available for new projects
+          </span>
+
+          <h1 class="hero-title">
+            Osiberu <span class="gradient-text">Boluwatife</span>
+          </h1>
+
+          <p class="hero-role">Website Designer for Nigerian Businesses</p>
+
+          <p class="hero-desc">
+            I help businesses grow online with high-converting
+            <strong>website design</strong>, optimised
+            <strong>Google Maps listings</strong>, results-driven
+            <strong>social media advertising</strong>, and standout
+            <strong>graphic design</strong>.
+          </p>
+
+          <div class="hero-buttons">
+            <button class="btn-primary" onclick="goTo('projects')">
+              View Projects
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </button>
+            <button class="btn-secondary" onclick="goTo('contact')">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#22c55e" aria-hidden="true"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.82 9.82 0 001.516 5.26l-.999 3.648 3.972-1.207zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+              Contact Me
+            </button>
+          </div>
+
+          <dl class="hero-stats">
+            <div class="hero-stat">
+              <dt>50+</dt>
+              <dd>Projects Delivered</dd>
+            </div>
+            <div class="hero-stat">
+              <dt>4+</dt>
+              <dd>Service Areas</dd>
+            </div>
+            <div class="hero-stat">
+              <dt>100%</dt>
+              <dd>Client Focused</dd>
+            </div>
+          </dl>
+        </div>
+
+        <!-- Portrait -->
+        <div class="hero-portrait reveal">
+          <div class="hero-portrait-blob"></div>
+          <div class="hero-portrait-img animate-float">
+            <img
+              src="images/images.jpeg"
+              alt="Osiberu Boluwatife — Website Designer and Digital Marketing Specialist"
+              loading="eager"
+              width="600" height="750"
+            />
+          </div>
+          <div class="hero-location-card">
+            <p>Based in</p>
+            <p>Nigeria 🇳🇬</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         ABOUT
+         ============================================================ -->
+    <section id="about">
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <span class="eyebrow">About Me</span>
+          <h2>Turning ideas into digital growth</h2>
+        </div>
+
+        <div class="about-grid">
+
+          <!-- Text -->
+          <div class="reveal about-text">
+            <p>
+              I'm <strong>Osiberu Boluwatife</strong>, a Nigerian digital professional
+              specialising in <strong>website design</strong>,
+              <strong>Google Maps listing</strong>,
+              <strong>social media advertising</strong> and
+              <strong>graphic design</strong>. I'm passionate about helping businesses
+              establish a strong online presence and reach more customers.
+            </p>
+            <p>
+              As a self-taught digital professional, I'm committed to continuous learning
+              and digital innovation. I combine creativity with strategy to deliver work
+              that not only looks great but also drives real, measurable results for
+              Nigerian businesses.
+            </p>
+
+            <ul class="about-highlights">
+              <li class="highlight-item">
+                <span class="check-badge">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+                </span>
+                <span>Nigerian digital professional</span>
+              </li>
+              <li class="highlight-item">
+                <span class="check-badge">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+                </span>
+                <span>Passionate about helping businesses grow online</span>
+              </li>
+              <li class="highlight-item">
+                <span class="check-badge">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+                </span>
+                <span>Dedicated to continuous learning &amp; digital innovation</span>
+              </li>
+              <li class="highlight-item">
+                <span class="check-badge">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+                </span>
+                <span>Self-taught with proven, measurable results</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Service cards -->
+          <div class="reveal services-grid">
+            <div class="service-card">
+              <span class="service-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg>
+              </span>
+              <h3>Website Design</h3>
+              <p>Modern, responsive websites and landing pages that convert visitors into customers.</p>
+            </div>
+            <div class="service-card">
+              <span class="service-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </span>
+              <h3>Google Maps Listing</h3>
+              <p>Google Business Profile setup and optimisation for stronger local visibility.</p>
+            </div>
+            <div class="service-card">
+              <span class="service-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 11 18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></svg>
+              </span>
+              <h3>Social Media Advertising</h3>
+              <p>Targeted ad campaigns that boost awareness, engagement and business growth.</p>
+            </div>
+            <div class="service-card">
+              <span class="service-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+              </span>
+              <h3>Graphic Design</h3>
+              <p>Eye-catching brand assets, social graphics and marketing materials.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         EXPERIENCE
+         ============================================================ -->
+    <section id="experience">
+      <div class="experience-container">
+
+        <div class="section-heading reveal">
+          <span class="eyebrow">Experience</span>
+          <h2>Professional Experience</h2>
+          <p class="subtitle">A track record of helping businesses grow through design, marketing and local visibility.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-line"></div>
+          <div class="timeline-items">
+
+            <!-- Item 1 -->
+            <div class="timeline-item reveal">
+              <span class="timeline-dot" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+              </span>
+              <div class="timeline-card">
+                <div class="timeline-card-header">
+                  <h3>Freelance Website Designer</h3>
+                  <span class="timeline-period">2023 — Present</span>
+                </div>
+                <p class="timeline-type">Self-Employed · boludevs</p>
+                <ul class="timeline-points">
+                  <li class="timeline-point">
+                    <span class="check-green" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+                    Built and deployed modern, mobile-first websites for local Nigerian businesses using AI-powered tools and GitHub-based workflows.
+                  </li>
+                  <li class="timeline-point">
+                    <span class="check-green" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+                    Connected client sites to custom .com.ng domains with free SSL — full end-to-end delivery.
+                  </li>
+                  <li class="timeline-point">
+                    <span class="check-green" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+                    Consistently delivered projects within 72 hours, exceeding client expectations on speed and quality.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="timeline-item reveal">
+              <span class="timeline-dot" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+              </span>
+              <div class="timeline-card">
+                <div class="timeline-card-header">
+                  <h3>Google Business Profile Specialist</h3>
+                  <span class="timeline-period">2023 — Present</span>
+                </div>
+                <p class="timeline-type">Local SEO</p>
+                <ul class="timeline-points">
+                  <li class="timeline-point">
+                    <span class="check-green" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+                    Set up and optimised Google Business Profiles for restaurants, salons, schools, and retail businesses across Lagos.
+                  </li>
+                  <li class="timeline-point">
+                    <span class="check-green" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+                    Improved local search visibility, helping clients appear in Google Maps results for their target keywords.
+                  </li>
+                  <li class="timeline-point">
+                    <span class="check-green" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+                    Managed client reviews, business info, and listing photos for consistent, trust-building online presence.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="timeline-item reveal">
+              <span class="timeline-dot" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+              </span>
+              <div class="timeline-card">
+                <div class="timeline-card-header">
+                  <h3>Digital Marketing Consultant</h3>
+                  <span class="timeline-period">2023 — Present</span>
+                </div>
+                <p class="timeline-type">Consulting</p>
+                <ul class="timeline-points">
+                  <li class="timeline-point">
+                    <span class="check-green" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+                    Designed and managed Meta (Facebook &amp; Instagram) ad campaigns for brand awareness and lead generation.
+                  </li>
+                  <li class="timeline-point">
+                    <span class="check-green" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+                    Built content strategies and posting schedules that grew client accounts and increased customer engagement.
+                  </li>
+                  <li class="timeline-point">
+                    <span class="check-green" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+                    Advised Nigerian SMEs on affordable digital marketing tactics that deliver measurable growth.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="timeline-item reveal">
+              <span class="timeline-dot" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+              </span>
+              <div class="timeline-card">
+                <div class="timeline-card-header">
+                  <h3>Graphic Designer</h3>
+                  <span class="timeline-period">2023 — Present</span>
+                </div>
+                <p class="timeline-type">Creative</p>
+                <ul class="timeline-points">
+                  <li class="timeline-point">
+                    <span class="check-green" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+                    Designed logos, brand identities, and complete visual systems for new and growing Nigerian businesses.
+                  </li>
+                  <li class="timeline-point">
+                    <span class="check-green" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+                    Created flyers, social media graphics, and promotional materials used across print and digital channels.
+                  </li>
+                  <li class="timeline-point">
+                    <span class="check-green" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+                    Delivered consistent, on-brand design assets that helped clients look credible and professional online.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         TOOLS (replaces Education)
+         ============================================================ -->
+    <section id="tools">
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <span class="eyebrow">Tools &amp; Stack</span>
+          <h2>What I Build With</h2>
+          <p class="subtitle">The tools, platforms and workflows I use to deliver fast, professional results for every client.</p>
+        </div>
+
+        <div class="tools-grid">
+          <div class="tool-card reveal">
+            <span class="tool-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg>
+            </span>
+            <h3>Website Builder</h3>
+            <p class="tool-place">Lovable · GitHub</p>
+            <p class="tool-desc">Building and deploying modern, responsive business websites using AI-powered tools and version control.</p>
+          </div>
+          <div class="tool-card reveal">
+            <span class="tool-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1 2.5 3 6 3s6-2 6-3v-5"/></svg>
+            </span>
+            <h3>Hosting &amp; Deployment</h3>
+            <p class="tool-place">Vercel · Netlify · WhoGoHost</p>
+            <p class="tool-desc">Fast, reliable site deployment with free SSL, custom domains, and auto-deploy from GitHub.</p>
+          </div>
+          <div class="tool-card reveal">
+            <span class="tool-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+            </span>
+            <h3>Design &amp; Branding</h3>
+            <p class="tool-place">Canva · Figma</p>
+            <p class="tool-desc">Creating logos, flyers, social media graphics, and brand identities for local Nigerian businesses.</p>
+          </div>
+          <div class="tool-card reveal">
+            <span class="tool-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 11 18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></svg>
+            </span>
+            <h3>Digital Marketing</h3>
+            <p class="tool-place">Google Business · Meta Ads</p>
+            <p class="tool-desc">Google Maps optimisation, social media advertising, and content strategy that drives real customer growth.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SKILLS / SERVICES
+         ============================================================ -->
+    <section id="skills">
+      <div class="skills-blob skills-blob-1"></div>
+      <div class="skills-blob skills-blob-2"></div>
+
+      <div class="container" style="position:relative">
+        <div class="section-heading light reveal">
+          <span class="eyebrow">Services</span>
+          <h2>What I Do Best</h2>
+          <p class="subtitle">A blend of design, development and marketing skills refined through hands-on project work.</p>
+        </div>
+
+        <div class="skills-grid reveal">
+          <span class="skill-badge"><span class="skill-dot"></span>Website Design</span>
+          <span class="skill-badge"><span class="skill-dot"></span>Website Development</span>
+          <span class="skill-badge"><span class="skill-dot"></span>Google Maps Listing</span>
+          <span class="skill-badge"><span class="skill-dot"></span>Social Media Advertising</span>
+          <span class="skill-badge"><span class="skill-dot"></span>Graphic Design</span>
+          <span class="skill-badge"><span class="skill-dot"></span>Digital Marketing</span>
+          <span class="skill-badge"><span class="skill-dot"></span>Content Creation</span>
+          <span class="skill-badge"><span class="skill-dot"></span>Branding</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PROJECTS
+         ============================================================ -->
+    <section id="projects">
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <span class="eyebrow">Projects</span>
+          <h2>Featured Work &amp; Portfolio</h2>
+          <p class="subtitle">A selection of projects across website design, local listings, advertising and graphic design.</p>
+        </div>
+
+        <!-- Featured -->
+        <div class="reveal" style="margin-bottom:3.5rem">
+          <div class="featured-label">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="#fbbf24" aria-hidden="true"><path d="M12 2l2.9 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 7.1-1.01L12 2z"/></svg>
+            <h3>Featured Projects</h3>
+          </div>
+          <div class="featured-grid" id="featured-grid"></div>
+        </div>
+
+        <!-- Controls -->
+        <div class="projects-controls reveal">
+          <div class="search-wrapper">
+            <span class="search-icon" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            </span>
+            <input
+              type="text"
+              id="project-search"
+              placeholder="Search projects…"
+              aria-label="Search projects"
+            />
+          </div>
+          <div class="filter-buttons" id="filter-buttons"></div>
+        </div>
+
+        <!-- Grid -->
+        <div class="projects-grid" id="projects-grid"></div>
+        <div class="projects-empty" id="projects-empty">
+          <p>No projects found</p>
+          <p>Try a different search term or category.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONTACT
+         ============================================================ -->
+    <section id="contact">
+      <div class="contact-blob contact-blob-1"></div>
+      <div class="contact-blob contact-blob-2"></div>
+
+      <div class="container" style="position:relative">
+        <div class="section-heading light reveal">
+          <span class="eyebrow">Contact</span>
+          <h2>Let's Work Together</h2>
+          <p class="subtitle">Ready to grow your business online? Reach out on WhatsApp or give me a call — let's bring your project to life.</p>
+        </div>
+        <div class="contact-grid" id="contact-grid"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-grid">
+
+        <div>
+          <div class="footer-brand-row">
+            <span class="footer-badge">OB</span>
+            <span class="footer-brand-name">Osiberu Boluwatife</span>
+          </div>
+          <p class="footer-desc">
+            Website Designer &amp; Digital Marketing Specialist helping businesses
+            grow online with modern design and smart marketing.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="footer-heading">Quick Links</h3>
+          <ul class="footer-links">
+            <li><button class="footer-link" onclick="goTo('home')">Home</button></li>
+            <li><button class="footer-link" onclick="goTo('about')">About Me</button></li>
+            <li><button class="footer-link" onclick="goTo('experience')">Experience</button></li>
+            <li><button class="footer-link" onclick="goTo('tools')">Tools</button></li>
+            <li><button class="footer-link" onclick="goTo('skills')">Services</button></li>
+            <li><button class="footer-link" onclick="goTo('projects')">Projects</button></li>
+            <li><button class="footer-link" onclick="goTo('contact')">Contact</button></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-heading">Get in Touch</h3>
+          <ul class="footer-contacts">
+            <li>WhatsApp: 09041490874</li>
+            <li>WhatsApp: 09033372448</li>
+            <li>Call: 09115327236</li>
+          </ul>
+          <button class="footer-cta" onclick="goTo('contact')">Start a Project</button>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copy" id="footer-copy"></p>
+        <button class="footer-top-btn" onclick="backToTopFn()">
+          Back to top
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button id="back-to-top" aria-label="Back to top" onclick="backToTopFn()">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
